@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap');
+/* font-family: 'Mukta', sans-serif; */
+/* font-family: 'Noto Sans JP', sans-serif; */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: rgb(240,240,240);
+  font-family: 'Mukta', sans-serif;
+  color: #19456b;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h1 {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #1687a7;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+h2 {
+  font-family: 'Noto Sans JP', sans-serif;;
+  color: #75cfb8;
+  font-size: 26px;
+  line-height: 10px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #75cfb8;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(22,135,167);
+  padding: 2px 8px 2px 8px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.contact-links {
+  text-decoration: none;
+  background-color: white;
+  color: rgb(22,135,167);
+  padding: 0px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 28px;
+}
+
+.contact-links:hover {
+  text-decoration: none;
+  background-color: white;
+  color: rgba(22,135,167, 0.75);
+  padding: 0px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 28px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #1687a7bf;
+}
+
+.container {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;;
+  margin: 1% 20%;
+  padding: 20px;
+}
+
+.avatar-rounded {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
